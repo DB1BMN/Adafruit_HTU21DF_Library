@@ -31,7 +31,7 @@ void setup() {
 void loop() {
     float temp = htu.readTemperature();
     float rel_hum = htu.readHumidity();
-    Serial.print("Temp: "); Serial.print(temp); Serial.print(" C");
+    Serial.print("Temp: "); Serial.print(temp); Serial.print(" °C");
     Serial.print("\t\t");
     Serial.print("Humidity: "); Serial.print(rel_hum); Serial.println(" \%");
     delay(500);
